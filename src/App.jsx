@@ -9,7 +9,6 @@ export default function App() {
 
   const handleAddOrUpdate = () => {
     if (!title.trim() || !content.trim()) return;
-
     if (editIndex !== null) {
       // ✅ Update note
       const updatedNotes = [...notes];
